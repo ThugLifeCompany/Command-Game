@@ -222,6 +222,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &6936243
@@ -535,6 +536,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &25228551
@@ -636,6 +638,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &25537566
@@ -1077,6 +1080,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &61005494
@@ -1143,7 +1147,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &88075326
 GameObject:
@@ -1244,6 +1248,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &97856076
@@ -1345,6 +1350,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &113181933
@@ -1446,6 +1452,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &118746402
@@ -1547,6 +1554,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &122695597
@@ -1648,6 +1656,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &129273170
@@ -1828,6 +1837,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &136889605
@@ -2099,6 +2109,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &153029807
@@ -2200,6 +2211,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &154246541
@@ -2301,6 +2313,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &159276031
@@ -3082,6 +3095,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &184713947
@@ -3183,6 +3197,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &187953793
@@ -3454,7 +3469,8 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 2}
-  entranceLock: 0
+  availableMoves: north east south west
+  entranceLock: 1
   objects: []
 --- !u!1 &216885769
 GameObject:
@@ -3725,6 +3741,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &237340280
@@ -3996,6 +4013,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &246307842
@@ -4097,6 +4115,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &247816637
@@ -4198,6 +4217,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &252315810
@@ -4809,6 +4829,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &281120886
@@ -4910,6 +4931,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &284893492
@@ -5181,6 +5203,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &302310280
@@ -5282,6 +5305,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &323374880
@@ -5553,6 +5577,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &341589357
@@ -5654,6 +5679,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &367657434
@@ -6477,6 +6503,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &413424328
@@ -6748,6 +6775,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &433942144
@@ -6807,7 +6835,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: room
+  m_text: room178
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7019,6 +7047,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &450467899
@@ -7054,6 +7083,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!212 &450467901
@@ -7391,6 +7421,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &462032847
@@ -7832,8 +7863,60 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
+--- !u!1 &471745002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 471745004}
+  - component: {fileID: 471745003}
+  m_Layer: 0
+  m_Name: Combinations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &471745003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471745002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf42290d2e4d7042b83d6336091a06c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  combineLists:
+  - combineRequirments:
+    - candle
+    - lighter
+    results:
+    - result: light
+      type: 1
+    wrong: 0
+--- !u!4 &471745004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471745002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.455072, y: -3.1730204, z: -1.8434716}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &475688715
 GameObject:
   m_ObjectHideFlags: 0
@@ -8103,6 +8186,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &502616992
@@ -8204,6 +8288,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &519420028
@@ -8287,7 +8372,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &528847694
 GameObject:
@@ -8389,10 +8474,10 @@ MonoBehaviour:
   roomName: hall
   property: robert
   roomID: {x: 3, y: 2}
-  entranceLock: 0
+  availableMoves: north east south west
+  entranceLock: 1
   objects:
-  - robert room key
-  - backpack
+  - door178
 --- !u!114 &528847698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8889,6 +8974,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &550445028
@@ -9330,6 +9416,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &554463244
@@ -9389,7 +9476,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: empty
+  m_text: yard
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -9771,6 +9858,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &573029845
@@ -9872,6 +9960,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &575268540
@@ -10092,6 +10181,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &583291603
@@ -10703,6 +10793,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &619298823
@@ -10804,6 +10895,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &620836191
@@ -10905,6 +10997,7 @@ MonoBehaviour:
   roomName: Bridge
   property: 
   roomID: {x: 11, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &625497977
@@ -10919,7 +11012,7 @@ GameObject:
   - component: {fileID: 625497980}
   - component: {fileID: 625497979}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Status_Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10939,10 +11032,10 @@ RectTransform:
   m_Father: {fileID: 575268541}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 0.8123974}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 547.67}
-  m_SizeDelta: {x: -20, y: -1107.9}
+  m_AnchoredPosition: {x: 0, y: -1.7409668}
+  m_SizeDelta: {x: -20, y: -9.080002}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &625497979
 MonoBehaviour:
@@ -10977,11 +11070,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'commands : grab - move - hit - kill - use - search - open - combine -
-    drop - update
-
-
-    available moves : east - west - north - south'
+  m_Text: 
 --- !u!222 &625497980
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11089,6 +11178,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &631039105
@@ -11360,6 +11450,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &644792611
@@ -12074,7 +12165,7 @@ Transform:
   m_Children:
   - {fileID: 1122328946}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &648701830
 GameObject:
@@ -12175,6 +12266,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &650978203
@@ -13168,6 +13260,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &698175514
@@ -13269,6 +13362,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &704912644
@@ -13365,7 +13459,7 @@ RectTransform:
   - {fileID: 575268541}
   - {fileID: 1131278323}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -13471,6 +13565,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &725814973
@@ -13572,6 +13667,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &728624152
@@ -13927,7 +14023,7 @@ GameObject:
   - component: {fileID: 749657255}
   - component: {fileID: 749657254}
   m_Layer: 5
-  m_Name: InputField
+  m_Name: ConsoleLogs_InputField
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13949,10 +14045,10 @@ RectTransform:
   m_Father: {fileID: 575268541}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 202.63408}
-  m_SizeDelta: {x: 0, y: -806.347}
+  m_AnchorMin: {x: 0, y: 0.41500002}
+  m_AnchorMax: {x: 1, y: 0.8123974}
+  m_AnchoredPosition: {x: 0, y: 3.373993}
+  m_SizeDelta: {x: 0, y: -2.8660278}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &749657254
 MonoBehaviour:
@@ -14326,6 +14422,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &758694635
@@ -14427,6 +14524,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &770152151
@@ -14698,6 +14796,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &780881146
@@ -14799,6 +14898,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &782202138
@@ -15489,6 +15589,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &810226727
@@ -16100,6 +16201,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &828834283
@@ -16371,6 +16473,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &841968351
@@ -16472,6 +16575,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &863669572
@@ -16913,6 +17017,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &887813600
@@ -17354,6 +17459,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &903943980
@@ -17455,6 +17561,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &905881316
@@ -17556,6 +17663,7 @@ MonoBehaviour:
   roomName: warehouse
   property: robert
   roomID: {x: 4, y: 2}
+  availableMoves: north south west
   entranceLock: 0
   objects:
   - candle
@@ -17660,6 +17768,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &913595383
@@ -17761,6 +17870,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &917045785
@@ -18372,6 +18482,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &996240111
@@ -18473,6 +18584,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &997850500
@@ -18574,6 +18686,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1002498562
@@ -18845,6 +18958,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1015472337
@@ -18946,6 +19060,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1020974336
@@ -19387,6 +19502,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1065737507
@@ -19488,6 +19604,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1067543399
@@ -20481,6 +20598,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1106435841
@@ -20752,6 +20870,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1122328945
@@ -20895,6 +21014,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1122854473
@@ -21359,6 +21479,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1139307126
@@ -21460,6 +21581,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1143802966
@@ -22113,6 +22235,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1157398994
@@ -22214,6 +22337,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1163169768
@@ -22315,6 +22439,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1173678958
@@ -22586,6 +22711,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1217523530
@@ -22687,6 +22813,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1218732916
@@ -22958,6 +23085,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1245055000
@@ -23059,6 +23187,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1255292572
@@ -23330,6 +23459,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1256760372
@@ -24111,6 +24241,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1288891387
@@ -24212,6 +24343,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1290878635
@@ -24313,6 +24445,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1296012336
@@ -24752,12 +24885,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7ee18b4c723b5a45aaccb7d397a8cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomName: room
+  roomName: room178
   property: robert
   roomID: {x: 3, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects:
-  - 
+  - key_robert_yard
+  - pen
+  - paper
 --- !u!114 &1297322730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24772,7 +24908,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   requiredAbilitys: []
   requiredItems:
-  - robert room key
+  - key_door178
 --- !u!1 &1312325053
 GameObject:
   m_ObjectHideFlags: 0
@@ -24872,6 +25008,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1320737715
@@ -25054,6 +25191,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1321908425}
   - component: {fileID: 1321908424}
+  - component: {fileID: 1321908426}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -25090,8 +25228,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1321908426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321908423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3097573c3cb39d8478ba48ff6c7dda80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1333803324
 GameObject:
   m_ObjectHideFlags: 0
@@ -25871,6 +26021,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1385300849
@@ -26482,6 +26633,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1406147217
@@ -26583,6 +26735,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1408297078
@@ -26854,6 +27007,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1414949584
@@ -27125,6 +27279,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1443905143
@@ -27226,6 +27381,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1457420930
@@ -27667,6 +27823,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1489812631
@@ -27938,6 +28095,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1503548800
@@ -28065,7 +28223,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1507547268
 GameObject:
@@ -28336,6 +28494,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1514222211
@@ -28777,6 +28936,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1537179743
@@ -29218,6 +29378,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1571540497
@@ -29319,6 +29480,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1588180866
@@ -29420,6 +29582,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1588623768
@@ -29521,6 +29684,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1602086938
@@ -29622,6 +29786,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1615657721
@@ -29765,6 +29930,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1622358427
@@ -30248,6 +30414,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1643943707
@@ -30349,6 +30516,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1650502170
@@ -30450,6 +30618,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1663074247
@@ -30551,6 +30720,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1663758814
@@ -31332,6 +31502,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1732852590
@@ -31773,6 +31944,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1740524621
@@ -31874,6 +32046,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 3}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1743107066
@@ -31975,6 +32148,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1745489289
@@ -32416,6 +32590,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1759248831
@@ -32517,6 +32692,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1771844753
@@ -32618,6 +32794,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1789374142
@@ -32719,6 +32896,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 3, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1805393084
@@ -32990,6 +33168,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 7}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1811012820
@@ -33431,6 +33610,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1836250198
@@ -33574,6 +33754,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1847854360
@@ -34397,6 +34578,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1874672272
@@ -34443,42 +34625,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   world: {fileID: 646633749}
+  currentRoom: {fileID: 0}
   player: {fileID: 1321908424}
   console: {fileID: 749657254}
   consoleWaitlist:
   - text: hello!
     textTime: 2
-    isRunning: 0
-    ps: 0
-    isForcingToClearConsole: 0
     isForcingToWrite: 0
+    isForcingToClearConsole: 0
+    ps: 0
+    isRunning: 0
   - text: 'you are captured by killers!
 
       now you are in a abandoned village'
     textTime: 3
-    isRunning: 0
-    ps: 1
-    isForcingToClearConsole: 0
     isForcingToWrite: 0
+    isForcingToClearConsole: 0
+    ps: 1
+    isRunning: 0
   - text: findout a way to escape
     textTime: 2
-    isRunning: 0
-    ps: 1
-    isForcingToClearConsole: 0
     isForcingToWrite: 0
+    isForcingToClearConsole: 0
+    ps: 1
+    isRunning: 0
   - text: run for your life!
     textTime: 5
-    isRunning: 0
-    ps: 2
+    isForcingToWrite: 0
     isForcingToClearConsole: 0
-    isForcingToWrite: 0
-  - text: 
-    textTime: 2
+    ps: 2
     isRunning: 0
-    ps: 0
-    isForcingToClearConsole: 1
-    isForcingToWrite: 0
   commander_Text: {fileID: 1515561587079517704}
+  status_Text: {fileID: 625497979}
 --- !u!1 &1876289454
 GameObject:
   m_ObjectHideFlags: 0
@@ -34554,7 +34732,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.007071441, g: 0.6037736, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -34576,9 +34754,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7ee18b4c723b5a45aaccb7d397a8cb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomName: 
-  property: 
+  roomName: yard
+  property: robert
   roomID: {x: 2, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!114 &1876289458
@@ -34695,6 +34874,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 8}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1884182935
@@ -34966,6 +35146,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1898624285
@@ -35407,6 +35588,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1914610742
@@ -35678,6 +35860,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 4, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1923761895
@@ -35924,6 +36107,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1957800622
@@ -36365,6 +36549,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1972188177
@@ -36636,6 +36821,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 11, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &1985340505
@@ -36907,6 +37093,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2004549224
@@ -37858,6 +38045,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 1, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2023355346
@@ -38299,6 +38487,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2033014725
@@ -38400,6 +38589,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 5}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2037018677
@@ -38750,6 +38940,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 11}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2054566999
@@ -39573,6 +39764,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 2, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2081030452
@@ -39674,6 +39866,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 0}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2084604516
@@ -40115,6 +40308,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2107735845
@@ -40216,6 +40410,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 8, y: 1}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2117904977
@@ -40317,6 +40512,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 7, y: 9}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2120499104
@@ -40588,6 +40784,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 0, y: 4}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2125969332
@@ -40859,6 +41056,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 9, y: 6}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2129274432
@@ -40960,6 +41158,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 10, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2130143085
@@ -41061,6 +41260,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 5, y: 2}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &2133324760
@@ -41162,6 +41362,7 @@ MonoBehaviour:
   roomName: 
   property: 
   roomID: {x: 6, y: 10}
+  availableMoves: north east south west
   entranceLock: 0
   objects: []
 --- !u!1 &30798856050911871

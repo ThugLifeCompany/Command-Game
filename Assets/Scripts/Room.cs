@@ -7,6 +7,7 @@ public class Room : MonoBehaviour
 	public string roomName;
 	public string property;
 	public Vector2 roomID;
+	public string availableMoves = "north east south west";
 	public bool entranceLock;
 	public List<string> objects;
 
@@ -18,6 +19,14 @@ public class Room : MonoBehaviour
 
 	public void InitializeRoom()
 	{
+		CommandHandler.gc.currentRoom = this;
+		CommandHandler.player.currentRoom = roomID;
+		CommandHandler.gc.UpdateConsole();
+		CommandHandler.gc.AddConsoleText("you moved!, items and moves are updated!", 1, false, false, PreSpacing.Enter);
+	}
+
+	public string GetStatus()
+	{
 		var text = string.Format("you are in {0} {1}\nobjects: ", property, roomName);
 		for (int i = 0; i < objects.Count; i++)
 		{
@@ -27,6 +36,7 @@ public class Room : MonoBehaviour
 				text += objects[i] + "\n";
 		}
 
-		GameObject.Find("GameController").GetComponent<GameController>().AddConsoleText(text, 0, false, true, PreSpacing.None);
+		text += "available moves : " + availableMoves + "\n";
+		return "commands : grab - move - hit - kill - use - search - open - combine - drop - update\n\n" + text;
 	}
 }

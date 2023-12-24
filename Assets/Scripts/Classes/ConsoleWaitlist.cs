@@ -1,32 +1,34 @@
+using System.Collections;
 using UnityEngine;
 
-public enum PreSpacing { None, Enter, Tab, Space}
+public enum PreSpacing { Enter, Space }
 
 [System.Serializable]
 public class ConsoleWaitlist
 {
-	[TextArea] public string text;
-	public float textTime;
-	public bool isRunning;
-	public PreSpacing ps = PreSpacing.Enter;
-	public bool isForcingToClearConsole;
-	public bool isForcingToWrite;
+    public string text;
+    public float textTime;
+    public bool isForcingToWrite;
+    public bool isForcingToClearConsole;
+    public PreSpacing ps;
+    public bool isRunning;
 
-	public string WriteText()
-	{
-		isRunning = true;
+    public string WriteText()
+    {
+        isRunning = true;
 
-		switch (ps)
-		{
-			case PreSpacing.Enter:
-				return "\n" + text;
-			case PreSpacing.Tab:
-				return "\t" + text;
-			case PreSpacing.Space:
-				return " " + text;
-			default:
-				return text;
+        string prefix = "";
+        switch (ps)
+        {
+            case PreSpacing.Enter:
+                prefix = "\n\n";
+                break;
+            case PreSpacing.Space:
+                prefix = "\n";
+                break;
+        }
 
-		}
-	}
+        return prefix + text;
+    }
 }
+

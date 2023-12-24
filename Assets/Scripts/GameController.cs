@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class GameController : MonoBehaviour
 {
 	public World world;
+	public Room currentRoom;
 	[SerializeField] private Player player;
 
 	[Header("Console")]
@@ -12,11 +13,16 @@ public class GameController : MonoBehaviour
 	[SerializeField] private List<ConsoleWaitlist> consoleWaitlist = new List<ConsoleWaitlist>();
 	private float actionTimer;
 
-	public Text commander_Text;
+	[SerializeField] private Text commander_Text;
+	[SerializeField] private Text status_Text;
 
 	private void Start()
 	{
-		world.rowRooms[(int)player.currentRoom.x].rooms[(int)player.currentRoom.y].InitializeRoom();
+		CommandHandler.player = GameObject.Find("Player").GetComponent<Player>();
+		CommandHandler.gc = GameObject.Find("GameController").GetComponent<GameController>();
+		CommandHandler.world = GameObject.Find("World").GetComponent<World>();
+		CommandHandler.combinations = GameObject.Find("Combinations").GetComponent<Combinations>();
+		MoveToRoom(Vector2.zero);
 	}
 
 	private void Update()
@@ -25,6 +31,26 @@ public class GameController : MonoBehaviour
 			CheckoutActions();
 	}
 
+	/// <summary>
+	/// Move to the Room you want
+	/// </summary>
+	/// <param name="offsetCoordinate">The offset direction of coordinate.</param>
+	public void MoveToRoom(Vector2 offsetCoordinate)
+	{
+		var playerDestination = world.rowRooms[(int)player.currentRoom.x + (int)offsetCoordinate.x].rooms[(int)player.currentRoom.y + (int)offsetCoordinate.y];
+		string entrance = string.Empty;
+		if (playerDestination.gameObject.GetComponent<Requirment>() != null)
+			entrance = playerDestination.gameObject.GetComponent<Requirment>().CheckoutRequirments();
+		else
+			playerDestination.InitializeRoom();
+
+		if (entrance == "success")
+			playerDestination.InitializeRoom();
+		else
+			AddConsoleText(entrance, 0, false, false, PreSpacing.Enter);
+	}
+
+	//Console Codes -----------------------------------------------------------
 	public void AddConsoleText(string textx, float textTimex, bool isForcingToWritex, bool isForcingToClearConsolex, PreSpacing preSpacex = PreSpacing.Enter)
 	{
 		var cw = new ConsoleWaitlist();
@@ -54,6 +80,12 @@ public class GameController : MonoBehaviour
 			consoleWaitlist.Remove(consoleWaitlist[0]);
 			actionTimer = 0;
 		}
+	}
+
+	public void UpdateConsole()
+	{
+		commander_Text.text = string.Empty;
+		status_Text.text = currentRoom.GetStatus();
 	}
 
 	public void AddCharacter(string character)

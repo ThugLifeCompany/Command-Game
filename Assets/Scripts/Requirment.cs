@@ -6,8 +6,6 @@ public class Requirment : MonoBehaviour
 	[SerializeField] private List<string> requiredAbilitys;
 	[SerializeField] private List<string> requiredItems;
 
-	private Player player;
-
 	private void Start()
 	{
 		GetComponent<Room>().entranceLock = true;
@@ -15,32 +13,40 @@ public class Requirment : MonoBehaviour
 
 	public string CheckoutRequirments()
 	{
-		player = GameObject.Find("Player").GetComponent<Player>();
-
-		if (requiredItems.Count <= 0 && requiredItems.Count <= 0)
+		if (requiredAbilitys.Count <= 0 && requiredItems.Count <= 0)
 		{
 			UnlockEntrance();
-			return "success!";
+			return "success";
 		}
 
 		bool reqiurmentCheck = false;
-		string reqiurthings = string.Empty;
+		string reqAbility = string.Empty;
 		for (int i = 0; i < requiredAbilitys.Count; i++)
 		{
-			if (!player.abilitys.Contains(requiredAbilitys[i]))
+			if (!CommandHandler.player.abilitys.Contains(requiredAbilitys[i]))
 			{
 				reqiurmentCheck = true;
-				reqiurthings += requiredAbilitys[i] + "\n";
+				reqAbility += requiredAbilitys[i] + "\t";
+			}
+		}
+
+		string reqItems = string.Empty;
+		for (int i = 0; i < requiredItems.Count; i++)
+		{
+			if (!CommandHandler.player.abilitys.Contains(requiredAbilitys[i]))
+			{
+				reqiurmentCheck = true;
+				reqItems += requiredAbilitys[i] + "\t";
 			}
 		}
 
 		if (!reqiurmentCheck)
 		{
 			UnlockEntrance();
-			return "success!";
+			return "success";
 		}
 		else
-			return "you need this thing to unlock this move: \n" + reqiurthings;
+			return "you need this things to unlock this move: \n" + reqAbility + requiredItems;
 	}
 
 	private void UnlockEntrance()
